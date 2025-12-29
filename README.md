@@ -30,7 +30,7 @@ Aqui está o progresso atual do desenvolvimento:
 
 1.  **Clone o repositório**
     ```bash
-    git clone [https://github.com/filipevbr/couples-finances.git](https://github.com/filipevbr/couples-finances.git)
+    git clone https://github.com/filipevbr/couples-finances.git
     cd couples-finances
     ```
 

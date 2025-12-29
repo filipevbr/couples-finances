@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanças Casal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">  <!-- CDN do bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  <!-- Gera o link correto do arquivo css -->
+</head>
+<body class="bg-dark text-white">  <!-- Define o fundo e a cor da fonte -->
+
+    <div class="container mt-5 text-center">  <!-- Define a margem das bordas-->
+        <h1 class="display-4">❤️ Finanças Casal</h1>
+        <p class="lead">Sincronize seus sonhos.</p>
+        
+        <hr class="my-4 bg-light">
+
+        <div class="card text-dark mx-auto" style="max-width: 400px;">  <!-- Cria uma caixa branca no centro da tela -->
+            <div class="card-body">
+                <h5 class="card-title">Status do Sistema</h5>
+                <p class="card-text">O Flask está conectado com sucesso ao HTML!</p>
+                <a href="/login" class="btn btn-primary">Login</a>  <!-- Transforma o link em um botao visualmente amigavel -->
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
